@@ -79,7 +79,7 @@ public class NewRegistrationV2 extends HttpServlet {
 			String partnerId = jsonObject.getString("partnerId");
 			String password = jsonObject.getString("password");
 			String referenceNo = jsonObject.getString("referenceNo");*/
-			String retailerId = jsonObject.getString("retailerId");
+			//String retailerId = jsonObject.getString("retailerId");
 			String partnerId = jsonObject.getString("partnerId");
 			String password = jsonObject.getString("password");
 			String bankId = jsonObject.getString("bankId");
