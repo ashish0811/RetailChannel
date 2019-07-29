@@ -376,7 +376,7 @@ public class NewRegistrationV2 extends HttpServlet {
 			String panImage = jsonObject.getString("panImage");//
 			String rcImage = jsonObject.getString("rcImage");//
 			String amount = jsonObject.getString("amount"); 
-		//	String custPhoto = jsonObject.getString("custPhoto");//
+			String custPhoto = jsonObject.getString("custPhoto");//
 
 			return true;
 		}
